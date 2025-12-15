@@ -3,28 +3,19 @@ layout: default
 title: Articles
 ---
 
+# Articles
 
+<p>
+All articles are published on Medium and listed here automatically.
+</p>
 
-<h2>My Medium Articles</h2>
+<p>
+<a href="https://medium.com/@nikolaajdukovic" target="_blank">
+View my Medium profile →
+</a>
+</p>
 
-<script src="https://rss2json.com/gfapi.js"></script>
-<script>
-rss2json(
-  "https://medium.com/feed/@nikolaajdukovic",
-  function (data) {
-    let output = "<ul>";
-    data.entries.forEach(entry => {
-      output += `
-        <li>
-          <a href="${entry.link}" target="_blank">
-            ${entry.title}
-          </a>
-        </li>`;
-    });
-    output += "</ul>";
-    document.getElementById("feed").innerHTML = output;
-  }
-);
-</script>
-
-<div id="feed"></div>
+<iframe
+  src="https://medium.com/feed/@nikolaajdukovic"
+  style="width:100%; height:900px; border:none;">
+</iframe>
