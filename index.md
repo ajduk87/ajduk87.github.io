@@ -1,123 +1,47 @@
 ---
 layout: default
+title: Home
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Nikola Ajdukovic
 
-[Link to another page](./another-page.html).
+Senior .NET / C# developer with over 12 years of professional experience.
 
-There should be whitespace between paragraphs.
+I write **deep, practical technical articles** focused on understanding *why* things exist and *how* they work under the hood — not just how to use them.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+My content is based on real production systems and long-lived codebases, with an emphasis on correctness, clarity, and intentional design.
 
-# Header 1
+---
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## What I write about
 
-## Header 2
+- LINQ operators explained from first principles  
+  *(Select, Where, SelectMany, OfType, Cast, ToXxx, AsXxx)*
+- IEnumerable, `yield`, deferred execution, and streaming pipelines
+- Real-world domain modeling  
+  *(banking, logistics, sports betting)*
+- Architecture and design decisions in .NET systems
+- Performance, correctness, and maintainability
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+---
 
-### Header 3
+## Articles
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+All articles are originally published on **Medium** and automatically indexed on this site.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+👉 Visit the **Articles** page to browse the full list.
 
-#### Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## About this site
 
-##### Header 5
+This site serves as a **personal technical archive** and a clean reading hub for my C# / .NET work.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+Medium remains the primary publishing platform; this site exists to keep everything:
 
-###### Header 6
+- centralized  
+- searchable  
+- distraction-free  
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+No reposting, no duplicated content — just a single place to access everything I publish.
 
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
